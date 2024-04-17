@@ -15,6 +15,8 @@ library(DT)
 library(plotly)
 library(readxl)
 
-#load data
+#load data for first unit, room
 D_01_bedroom <- (read_csv("./data/bedroom_124256.csv")) %>% 
-  select(1:7)
+  select(1:7) %>% 
+  rename("time" = "timestamp(America/Denver)")
+
