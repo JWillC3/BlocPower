@@ -29,3 +29,5 @@ acoma %>%
   scale_color_manual(name = "Home",
                             values = c("darkgreen","darkblue"),
                             labels = c("Green", "Blue"))
+
+p_acoma <- plot(acoma, "Acoma Property Kitchens")
